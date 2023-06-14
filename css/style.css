@@ -7,8 +7,12 @@ body{
     
 }
 .container{
-    padding: 50px;
+    padding: 20px 50px;
     background-color: lightcoral;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
 }
 .row{
     display: flex;
@@ -20,4 +24,17 @@ body{
     height: 100px;
     background-color: lightgreen;
     margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight: bold;
+}
+.fizzbuzz{
+    background-color: rgb(246, 96, 203);
+}
+.fizz{
+    background-color: aqua;
+}
+.buzz{
+    background-color: rgb(244, 223, 0);
 }
