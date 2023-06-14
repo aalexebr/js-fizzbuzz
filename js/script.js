@@ -3,7 +3,7 @@
 
 
 
-for (let n = 1; n <= 30; n++){
+for (let n = 1; n <= 100; n++){
     
     let box = document.createElement('div')
     box.className = 'col'
