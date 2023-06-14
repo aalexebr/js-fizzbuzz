@@ -11,7 +11,7 @@ for (let n = 1; n <= 100; n++){
 
     // puts in the text number of the iteration in the created div
     box.innerText = n
-  
+    console.log('nnumber', n)
     // math conditions for the iterations
     // begin with the unique AND condition and proceed with the secondary
     // if the AND is last the iteration stops after the first if
