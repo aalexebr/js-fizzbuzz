@@ -11,11 +11,6 @@ for (let n = 1; n <= 100; n++){
     
     box.innerText = n
 
-    // let text = document.createElement("h1");
-    // text.innerText = n;
-    // document.querySelector('.col').append(text)
-    // document.body.appendChild(text);
-    console.log('nnumber', n)
     
     if (n % 3 == 0 && n % 5 == 0){
         box.innerText = 'FizzBuzz'
