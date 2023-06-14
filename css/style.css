@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.container{
+    padding: 50px;
+    background-color: lightcoral;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.col{
+    width: calc((100vw / 7) - 20px);
+    height: calc(100vw / 7);
+    background-color: lightgreen;
+    margin: 10px;
+}
